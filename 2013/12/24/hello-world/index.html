@@ -64,7 +64,7 @@
 <div class="widgets">
 
 
-<widget class="widget-wrapper post-list"><div class="widget-header dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><a class="item title" href="/2025/06/27/%E9%9A%8F%E7%AC%94%E6%84%9F%E6%82%9F20250627/"><span class="title">回忆往事（一）</span></a><a class="item title" href="/2013/12/24/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88/"><span class="title">日本語テスト</span></a><a class="item title" href="/2025/06/23/topic4/"><span class="title">Topic Test 4</span></a><a class="item title" href="/2013/12/24/article_cls/"><span class="title">中文測試1</span></a><a class="item title" href="/2025/06/23/topic3/"><span class="title">Topic Test 3</span></a><a class="item title" href="/2019/07/25/code-highlight/"><span class="title">Code Highlight Style test</span></a><a class="item title" href="/2013/12/25/excerpts/"><span class="title">Excerpts</span></a><a class="item title" href="/2013/12/24/elements/"><span class="title">Elements</span></a><a class="item title" href="/2013/12/25/gallery-post/"><span class="title">Gallery Post</span></a><a class="item title" href="/2013/12/24/hello-world/"><span class="title">Hello World</span></a></div></widget>
+<widget class="widget-wrapper post-list"><div class="widget-header dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><a class="item title" href="/2025/07/01/%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0-1/"><span class="title">损失函数（一）</span></a><a class="item title" href="/2025/06/27/%E9%9A%8F%E7%AC%94%E6%84%9F%E6%82%9F20250627/"><span class="title">回忆往事（一）</span></a><a class="item title" href="/2013/12/24/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88/"><span class="title">日本語テスト</span></a><a class="item title" href="/2025/06/23/topic4/"><span class="title">Topic Test 4</span></a><a class="item title" href="/2013/12/24/article_cls/"><span class="title">中文測試1</span></a><a class="item title" href="/2025/06/23/topic3/"><span class="title">Topic Test 3</span></a><a class="item title" href="/2019/07/25/code-highlight/"><span class="title">Code Highlight Style test</span></a><a class="item title" href="/2013/12/24/elements/"><span class="title">Elements</span></a><a class="item title" href="/2013/12/24/hello-world/"><span class="title">Hello World</span></a><a class="item title" href="/2013/12/26/images/"><span class="title">Images</span></a></div></widget>
 </div>
 
 </div></aside><div class="l_main" id="main">
@@ -766,6 +766,26 @@
       })
     }
   });
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    processEscapes: true
+  }
+});
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  }
+});
+MathJax.Hub.Queue(function() {
+  var all = MathJax.Hub.getAllJax(), i;
+  for(i=0; i < all.length; i += 1) {
+    all[i].SourceElement().parentNode.className += ' has-jax';
+  }
+});
 </script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
